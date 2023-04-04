@@ -1,141 +1,22 @@
-.searchbtn{
-    border: 0;
-    background: white;
-    border-radius: 0.5rem;
-    /* position: relative;
-    left: -5vw;
-    z-index: 100; */
-}
-
-nav{
-    background: linear-gradient(280deg,#1a1004 -190.68%,#2099f1 296.61%,#0074c9 296.61%);
-}
-.d1{
-    display: grid;
-    grid-template-columns:100%;
-    width: 100%;
-    align-items:stretch;
-    padding-left: 5%;
-    padding-right: 3%;
-}
-.d2{
-    align-items: stretch;
-    /* display: inline; */
-}
-.d3{
-    position: relative;
-    display: inline-block;
-    
-}
-/* .d4{
-float: left;
-} */
-.d5{
-   padding-right: 4%;
-    float: right;
-}
-.d6{
-    margin-left: 10%;
-    
-   
-} 
-.sd1{
-    width: 40vw;
-   align-self: center;
-   /* border-radius: 5rem; */
-   
-}
-.row2 li{
-    margin-right: 10%;
-    font-weight: bolder;
-   
-}
-.row2 a{
-    color: #ffffff;
-}
 .logo{
-    background: url(https://www.bajajmall.in/etc.clientlibs/emistoremarketplace/clientlibs-emistoremarketplace/clientlibs-common/resources/icons/Bajaj_Mall_Logo_White.svg) no-repeat;
+    background:url(https://resources.dunzo.com/web-assets/prod/_next/static/images/logo-7b2b540792556466133aea6e7c6ae513.png) no-repeat;
     width: 10rem;
     height: 30px;
     display: inline-block;
     background-position: bottom;
     background-size: contain;
-    
-}
-.icons{
-    border-right: solid 1px #e6e6ee;
-}
-
-.iconright ul li{
-    margin-inline: 5px;
-}
-
-.tognav{
-   margin-right: 3%;
-   margin-left: 0%;
-}
-
-.searchbar{
-    border: 0;
-    border-radius: 0.5rem;
-    
-}
-
-
-.container1{
-    display: inline-block;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.topnav{
-    display: flex;
-}
-
-@media (max-width: 992px) { 
-
-
-.d6{
-    /* margin-top: 4%; */
-    margin-bottom: 0%;
-}
-.sd1{
-    width: 20rem;
-    margin-right: 50px;
-
-}
-.iconright{
-    position: absolute;
-    top: 10px;
-    right: 0;
-}
-.icons{
-    border-right: 0;
-}
-
-.iconright ul li{
-    margin-inline: 1px;
-}
-}
-@media (max-width: 776px) {
-    .sd1{
-        width: 100%;
-        
-    }
-    .d6{
-        width: 90vw;
-        margin-left: 0;
-    }
+    margin-left: 15vw;
    
-}
-@media (max-width: 400px) {
-.logo{
-    background: url(https://www.bajajmall.in/etc.clientlibs/emistoremarketplace/clientlibs-emistoremarketplace/clientlibs-common/resources/icons/Bajaj_Mall_Logo_White.svg) no-repeat;
-    width: 6rem;
-    height: 20px;
-    display: inline-block;
-    background-position: bottom;
-    background-size: contain;
     
 }
+.d1{
+    background-color: white;
+    margin-right: 40vw;
+    background: none;
+    border: 0;
+    
+
+}
+button:hover{
+    color: aquamarine;
 }
