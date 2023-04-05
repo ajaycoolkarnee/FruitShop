@@ -1,0 +1,61 @@
+#footer1{
+ margin-top: 70%;
+ height: 70vh;
+ background-color: rgb(23, 30, 48);
+}
+.para-1{
+  /* padding: 55px; */
+  font-size: 16px;
+  font-weight: 700;
+  /* text-align:center; */
+  margin-right: 51%;
+  
+  
+
+    
+}
+
+.para-2{
+    margin-top: 1%;
+    text-align: left;
+    margin-left: 13%;
+    margin-right: 15%;
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(218, 210, 210);
+    font-family: sans-serif;   
+    letter-spacing: 0.5px;
+    
+
+}
+.space{
+    padding: 4%;
+}
+.dunzo{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+#LINK{
+    margin-left: 15%;
+}
+/* .logo{
+   
+    background: url(https://resources.dunzo.com/web-assets/prod/_next/static/images/logo-footer-9f5c4da498fff7fcbead38344d855d20.png) no-repeat;
+    width: 60rem;
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+    background-position: bottom;
+    background-size: contain;
+    /* margin-left: 15vw; */
+    .l1{
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 14px;
+        color: white;
+       
+    }
+    
+ 
