@@ -4,6 +4,7 @@ import { GroceryStoreComponent } from './grocery-store/grocery-store.component';
 import { NavbarComponent } from './home/navbar/navbar.component';
 
 const routes: Routes = [
+  { path: 'nav', component: NavbarComponent},
   { path: 'grocery-store', component: GroceryStoreComponent}
 ];
 
