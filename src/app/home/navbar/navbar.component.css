@@ -6,17 +6,55 @@
     background-position: bottom;
     background-size: contain;
     margin-left: 15vw;
+    
+ 
    
     
 }
 .d1{
     background-color: white;
-    margin-right: 40vw;
+    align-items: center;
     background: none;
     border: 0;
+    position: sticky;
+    cursor: pointer;
+   
+    
+    
     
 
 }
-button:hover{
+.d1:hover{
     color: aquamarine;
 }
+
+.nav-item dropdown{
+    background-color: white;
+    
+
+}
+.dropdown{
+    margin-right: 20vw;
+    
+    
+
+}
+.nav-item:hover{
+    color: aquamarine;
+}
+.d3{
+    
+    margin-right: 35px;
+    border: 0;
+    font-size: 14px;
+    color: white;
+    background: rgb(0,210,144);
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.out{
+    top:0;
+    position: fixed;
+}
+
