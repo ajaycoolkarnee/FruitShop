@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { GroceryStoreComponent } from './grocery-store/grocery-store.component';
 import { NavbarComponent } from './home/navbar/navbar.component';
 
 const routes: Routes = [
-  { path: '', component: NavbarComponent}
+  { path: 'grocery-store', component: GroceryStoreComponent}
 ];
 
 @NgModule({

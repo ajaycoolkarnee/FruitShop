@@ -1,0 +1,117 @@
+.main-cont{
+    box-sizing: border-box;
+    padding-top: 4px;
+}
+.cont-box{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box {
+    margin-top: 24px;
+}
+.store {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+.sto-out {
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.sto-out:hover{
+    box-shadow: 0px 0px 5px 0px #80808075;
+
+}
+.img {
+    box-sizing: border-box;
+    display: inline;
+}
+.store-card-container {
+    margin-right: 16px;
+    border-radius: 16px;
+    overflow: hidden;
+    width: 125px;
+    height: 125px;
+    box-sizing: content-box;
+}
+.info {
+    flex: 1 1 0%;
+    min-width: 0px;
+}
+.heading{
+    font-size: 20px;
+    font-family: Gilroy,sans-serif;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.sub-head{
+font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(87, 94, 115);
+    opacity: 0.8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.dis-img{
+    box-sizing: content-box;
+    width: 20px;
+    height: 20px;
+}
+.fs-6{
+color: rgb(15, 25, 56);
+    font-size: 16px;
+    line-height: 30px;
+}
+.NdUZj {
+    width: calc(50% - 34px);
+    margin-top: 24px;
+}
+.hpmFkU {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+.gfkRnd {
+    width: 100%;
+    padding: 12px;
+}
+.StDqM {
+    box-sizing: border-box;
+}
+.kJwaGX {
+    margin-right: 16px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-sizing: content-box;
+    width: 125px;
+    height: 125px;
+}
+.gkxJzT {
+    flex: 1 1 0%;
+    min-width: 0px;
+    box-sizing: border-box;
+}
+@media (min-width: 1024px){
+.cont-box{
+    max-width: 1024px;
+}
+}
+@media screen and (min-width: 768px){
+.sub-head {
+    margin-top: 8px;
+}}
+@media screen and (min-width: 768px){
+.fs-6 {
+    margin-left: 3px;
+}}
